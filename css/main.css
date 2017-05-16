@@ -1,0 +1,155 @@
+@import url('https://fonts.googleapis.com/css?family=Lato|Raleway'); /* importowanie stylow z google fonts*/
+
+body{
+	background-color: #f2f2f2;
+	font-family: "Lato";
+	font-weight: 300;
+	font-size: 16px;
+	color: #555; /* kolor czcionki*/
+	
+	-webkit-font-smoothing: antialiased; /* gladka czcionka*/
+	margin-top: 70px;
+	
+}
+
+h1,h2,h3,h4,h5,h6{
+	font-family: "Raleway";
+	font-weight: 300;
+	color: #333;
+}
+p{
+	line-height: 28px;
+	margin-bottom: 25px;
+}
+
+.centered{
+	text-align:center;
+}
+a{
+	color: #f85c37;
+}
+
+a:hover,a:focus{
+	color: #999;
+	text-decoration: none;
+	outline: 0;
+}
+
+hr{
+	display: block;
+	height: 1px;
+	border: 0;
+	border-top: 1px solid #ccc;
+	margin: 1em 0;
+	padding: 0;
+}
+
+.navbar{
+	font-weight: 800;
+	font-size: 14px;
+	padding-top: 15px;
+	padding-bottom: 15px;
+}
+
+.navbar-inverse{
+	background: #2d2d2d;
+	border-color: #2d2d2d;
+}
+
+.navbar-inverse .navbar-nav > .active > a{
+	background-color: #ff7878;
+}
+
+.navbar-inverse .navbar-brand{
+	color: #999;
+	font-weight: bolder;
+	font-size: 22px;
+	letter-spacing: 1px;
+}
+
+#headerwrap {
+	background: url(../img/header-bg-2.jpg) no-repeat center top;
+	margin-top: - 10px;
+	padding-top: 20px;
+	text-align: center;
+	background-attachment: relative;
+	background-position: center center;
+	min-height: 500px;
+	width: 100%;
+	background-size: 100%;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	background-size: cover;
+}
+
+#headerwrap h1{
+	margin-top: 50px;
+	color: white;
+	font-size: 50px;
+	font-weight: 100;
+	letter-spacing: 3px;
+}
+
+#headerwrap h2{
+	color: white;
+	font-size: 40px;
+	letter-spacing: 2px;
+	text-transform: uppercase;
+}
+
+
+#service{
+	background: #2a3c62;
+	min-height:600px;
+	text-align: center;
+	text-transform: uppercase;
+}
+#service p{
+	margin-top: 230px;
+	font-size: 40px;
+}
+
+#about_us{
+	background: #e0e0e0;
+	padding-top: 10px;
+	padding-bottom: 50px;
+	margin: 90;
+	text-align: center;
+}
+#about_us p{
+	margin-top:0;
+	margin-bottom:0;
+}
+
+#about_us h4{
+	font-size: 30px;
+}
+
+.titl{
+	-webkit-transition: all 0.5s ease;
+	-moz-transition: all 0.5s ease;
+	transition:: all 0.5s ease;
+}
+
+.titl:hover{
+	-webkit-transform: rotate(-10deg);
+	-moz-transform: rotate(-10deg);
+	-o-transform: rotate(-10deg);
+	-ms-transform:rotate(-10deg);
+	transform: rotate(-10deg);
+}
+
+#footer{
+	background: #2d2d2d;
+	padding-top:30px;
+	padding-bottom: 20px;
+}
+#footer i{
+	color: #bdbdbd;
+	font-size:30px;
+	padding:20px;
+}
+
+#footer i:hover{
+	color:#ff7878;
+}
