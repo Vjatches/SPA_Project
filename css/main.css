@@ -5,17 +5,15 @@ body{
 	font-family: "Lato";
 	font-weight: 300;
 	font-size: 16px;
-	color: #555; /* kolor czcionki*/
-	
+	color: #00qaaa; /* kolor czcionki*/
 	-webkit-font-smoothing: antialiased; /* gladka czcionka*/
 	margin-top: 70px;
-	
 }
 
 h1,h2,h3,h4,h5,h6{
 	font-family: "Raleway";
 	font-weight: 300;
-	color: #333;
+	color: #00qaaaa;
 }
 p{
 	line-height: 28px;
@@ -25,14 +23,25 @@ p{
 .centered{
 	text-align:center;
 }
-a{
-	color: #f85c37;
+
+#linkHome a, #linkService a,#linkAboutUs a{
+	color: #ffffff;
+	-webkit-transition: all 0.8s ease;
 }
 
-a:hover,a:focus{
-	color: #999;
-	text-decoration: none;
-	outline: 0;
+#linkHome a:hover{
+	background-color: #DB3348;
+	-webkit-transform: rotate(-5deg);
+}
+
+#linkService a:hover{
+	background-color: #FF953E;
+	-webkit-transform: rotate(-5deg);
+}
+
+#linkAboutUs a:hover{
+	background-color: #57AFC4;
+	-webkit-transform: rotate(-5deg);
 }
 
 hr{
@@ -45,36 +54,32 @@ hr{
 }
 
 .navbar{
-	font-weight: 800;
 	font-size: 14px;
 	padding-top: 15px;
 	padding-bottom: 15px;
 }
 
 .navbar-inverse{
-	background: #2d2d2d;
-	border-color: #2d2d2d;
+	border-color: #008C05;
+	background-color: #008C05;
 }
 
-.navbar-inverse .navbar-nav > .active > a{
-	background-color: #ff7878;
-}
 
-.navbar-inverse .navbar-brand{
-	color: #999;
+.navbar-inverse {
+	color: #ffffff;
 	font-weight: bolder;
-	font-size: 22px;
+	font-size: 18px;
 	letter-spacing: 1px;
 }
 
 #headerwrap {
-	background: url(../img/header-bg-2.jpg) no-repeat center top;
+	background: url(../img/exchange_rates7_1.jpg) no-repeat center top;
 	margin-top: - 10px;
 	padding-top: 20px;
 	text-align: center;
 	background-attachment: relative;
 	background-position: center center;
-	min-height: 500px;
+	min-height: 600px;
 	width: 100%;
 	background-size: 100%;
 	-webkit-background-size: cover;
@@ -97,9 +102,8 @@ hr{
 	text-transform: uppercase;
 }
 
-
 #service{
-	background: #2a3c62;
+	background: #E0E0E0;
 	min-height:600px;
 	text-align: center;
 	text-transform: uppercase;
@@ -109,13 +113,33 @@ hr{
 	font-size: 40px;
 }
 
+#info{
+	background: #FF953E;
+	font-size: 20px;
+}
+
+#info i{
+	color: #ffffff;
+}
+
+
 #about_us{
-	background: #e0e0e0;
+	background: #57AFC4;
 	padding-top: 10px;
 	padding-bottom: 50px;
 	margin: 90;
 	text-align: center;
 }
+
+#about_us i{
+	color:#6A1B1D;
+	font-size: 30px;
+}
+
+#about_us i:hover{
+	color: #FF953E;
+}
+
 #about_us p{
 	margin-top:0;
 	margin-bottom:0;
@@ -140,7 +164,7 @@ hr{
 }
 
 #footer{
-	background: #2d2d2d;
+	background: #008C05;
 	padding-top:30px;
 	padding-bottom: 20px;
 }
