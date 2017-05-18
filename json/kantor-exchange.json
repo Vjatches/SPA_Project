@@ -1,0 +1,164 @@
+[
+    {
+        "Kraj": "",
+        "Waluta": "Unia Europejska",
+        "Kupno": "100EUR",
+        "Sprzedaż": "422"
+    },
+    {
+        "Kraj": "",
+        "Waluta": "Stany Zjednoczone",
+        "Kupno": "100USD",
+        "Sprzedaż": "386"
+    },
+    {
+        "Kraj": "",
+        "Waluta": "Wielka Brytania",
+        "Kupno": "100GBP",
+        "Sprzedaż": "497"
+    },
+    {
+        "Kraj": "",
+        "Waluta": "Szwajcaria",
+        "Kupno": "100CHF",
+        "Sprzedaż": "385"
+    },
+    {
+        "Kraj": "",
+        "Waluta": "Kanada",
+        "Kupno": "100CAD",
+        "Sprzedaż": "280"
+    },
+    {
+        "Kraj": "",
+        "Waluta": "Australia",
+        "Kupno": "100AUD",
+        "Sprzedaż": "280"
+    },
+    {
+        "Kraj": "",
+        "Waluta": "Czechy",
+        "Kupno": "100CZK",
+        "Sprzedaż": "15"
+    },
+    {
+        "Kraj": "",
+        "Waluta": "Szwecja",
+        "Kupno": "100SEK",
+        "Sprzedaż": "42"
+    },
+    {
+        "Kraj": "",
+        "Waluta": "Rosja",
+        "Kupno": "100RUB",
+        "Sprzedaż": "6"
+    },
+    {
+        "Kraj": "",
+        "Waluta": "Litwa",
+        "Kupno": "100LTL",
+        "Sprzedaż": "50"
+    },
+    {
+        "Kraj": "",
+        "Waluta": "Chorwacja",
+        "Kupno": "100HRK",
+        "Sprzedaż": "56"
+    },
+    {
+        "Kraj": "",
+        "Waluta": "Bułgaria",
+        "Kupno": "100BGN",
+        "Sprzedaż": "214"
+    },
+    {
+        "Kraj": "",
+        "Waluta": "Ukraina",
+        "Kupno": "100UAH",
+        "Sprzedaż": "14"
+    },
+    {
+        "Kraj": "",
+        "Waluta": "Japonia",
+        "Kupno": "100JPY",
+        "Sprzedaż": "3"
+    },
+    {
+        "Kraj": "",
+        "Waluta": "Węgry",
+        "Kupno": "100HUF",
+        "Sprzedaż": "1"
+    },
+    {
+        "Kraj": "",
+        "Waluta": "Dania",
+        "Kupno": "100DKK",
+        "Sprzedaż": "56"
+    },
+    {
+        "Kraj": "",
+        "Waluta": "Norwegia",
+        "Kupno": "100NOK",
+        "Sprzedaż": "44"
+    },
+    {
+        "Kraj": "",
+        "Waluta": "Rumunia",
+        "Kupno": "100RON",
+        "Sprzedaż": "91"
+    },
+    {
+        "Kraj": "",
+        "Waluta": "Turcja",
+        "Kupno": "100TRY",
+        "Sprzedaż": "105"
+    },
+    {
+        "Kraj": "Próba",
+        "Waluta": "J.M.",
+        "Kupno": "Kupno",
+        "Sprzedaż": "Sprzedaż"
+    },
+    {
+        "Kraj": "585",
+        "Waluta": "gram",
+        "Kupno": "81",
+        "Sprzedaż": "00"
+    },
+    {
+        "Kraj": "750",
+        "Waluta": "gram",
+        "Kupno": "105",
+        "Sprzedaż": "00"
+    },
+    {
+        "Kraj": "999",
+        "Waluta": "gram",
+        "Kupno": "140",
+        "Sprzedaż": "00"
+    },
+    {
+        "Kraj": "Próba",
+        "Waluta": "J.M.",
+        "Kupno": "Kupno",
+        "Sprzedaż": "Sprzedaż"
+    },
+    {
+        "Kraj": "925",
+        "Waluta": "gram",
+        "Kupno": "1",
+        "Sprzedaż": "00"
+    },
+    {
+        "Kraj": "Próba",
+        "Waluta": "J.M.",
+        "Kupno": "Kupno",
+        "Sprzedaż": "Sprzedaż"
+    },
+    {
+        "Kraj": "950",
+        "Waluta": "gram",
+        "Kupno": "80",
+        "Sprzedaż": "00"
+    }
+]
