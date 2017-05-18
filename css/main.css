@@ -177,3 +177,7 @@ hr{
 #footer i:hover{
 	color:#ff7878;
 }
+
+input{
+	width:50;
+}
