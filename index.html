@@ -9,6 +9,8 @@
 	<link rel="stylesheet" href="css/bootstrap.css">
 	<link rel="stylesheet" href="css/font-awesome.min.css">
 	<link rel="stylesheet" href="css/main.css">
+	<script src="jquery-3.1.1.min.js"></script>
+	<script src="js/kantor-exchange.js"></script>
 </head>
 
 <body>
@@ -35,17 +37,23 @@
 				<div class="col-lg-8 col-lg-offset-2">		
 				<h1>Currency exchange</h1>
 				<form class="form-inline">
-				<input type="text" class="form-control" placeholder="Amount">				
+				<input id="amount" type="text" class="form-control" placeholder="Amount">				
 								<select id="curr1" class="form-control">
 									<option value="usd">USD</option>
 									<option value="eur">EUR</option>
 									<option value="uah">UAH</option>
 									<option value="gbp">GBP</option>
 									<option value="rub">RUB</option>
-								</select>
-								<a id="currSwap" href="#" role="button">↔</a>
-								<select id="curr2" class="form-control">
 									<option value="pln">PLN</option>
+								</select>
+								<a id="currSwap" href="#" role="button" onClick="swapCurrency()">↔</a>
+								<select id="curr2" class="form-control" disabled="disabled">
+									<option value="usd">USD</option>
+									<option value="eur">EUR</option>
+									<option value="uah">UAH</option>
+									<option value="gbp">GBP</option>
+									<option value="rub">RUB</option>
+									<option value="pln" selected="selected">PLN</option>
 								</select>
 								<button type="button" class="btn btn-success">Convert</button>
 									
