@@ -113,6 +113,14 @@ hr{
 	font-size: 40px;
 }
 
+#service a{
+	text-decoration: none;
+}
+
+#service select:disabled{
+	pointer-events: none;
+}
+
 #info{
 	background: #FF953E;
 	font-size: 20px;
