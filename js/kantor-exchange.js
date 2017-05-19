@@ -1,8 +1,17 @@
 
 function swapCurrency(){
 	var temp = $("#curr1").val();
-$("#curr1").val($("#curr2").val());
-$("#curr2").val(temp);
+	$("#curr1").val($("#curr2").val());
+	if($("#curr1").attr("disabled") == "disabled"){
+		$("#curr1").removeAttr("disabled");
+		$("#curr2").attr("disabled","disabled");
+	}else{
+		if($("#curr2").attr("disabled") == "disabled"){
+			$("#curr2").removeAttr("disabled");
+			$("#curr1").attr("disabled","disabled");
+		}
+	}
+	$("#curr2").val(temp);
 }
 /**
 function convert(){
