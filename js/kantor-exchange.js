@@ -20,15 +20,6 @@ function convert(){
 		curr1: $("#curr1").val(),
 		curr2: $("#curr2").val()
 	};
-	
-	if curr1 = "PLN"$$ curr2= "USD"{
-		kierunek = "pln-usd";
-	};
-	if curr1 = "USD"$$ curr2= "PLN"{
-		kierunek = "usd-pln";
-	};
-	
-	
 	return input;
 }
 
@@ -69,7 +60,15 @@ var kantor = [
 
 ];
 
-
+fuction parsing(){
+	for(var i = 0; i<7; i++){
+		.getJSON("http://v-ie.uek.krakow.pl/~s180753/poland.json",function(json)){
+			if( $(#curr1).val() == "USD" && $(#curr2).val() == "PLN"){
+				
+			}
+		}
+	}
+}
 
 function compareDate(){
 	var open = new Date("2017-03-25T"+kantor.timeOpen+"Z");
