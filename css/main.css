@@ -117,8 +117,12 @@ hr{
 	text-decoration: none;
 }
 
+
 #service select:disabled{
 	pointer-events: none;
+	-webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
 }
 
 #info{
