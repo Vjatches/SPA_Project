@@ -10,7 +10,11 @@
 	<link rel="stylesheet" href="css/font-awesome.min.css">
 	<link rel="stylesheet" href="css/main.css">
 	<script src="jquery-3.1.1.min.js"></script>
+	
 	<script src="js/kantor-exchange.js"></script>
+	<script src="js/database.js"></script>
+	<script type="text/javascript" src="http://static.fusioncharts.com/code/latest/fusioncharts.js"></script>
+	<script type="text/javascript" src="http://static.fusioncharts.com/code/latest/themes/fusioncharts.theme.fint.js?cacheBust=56"></script>
 </head>
 
 <body>
@@ -41,49 +45,43 @@
 								<select id="curr1" class="form-control">
 									<option value="usd">USD</option>
 									<option value="eur">EUR</option>
-									<option value="uah">UAH</option>
+									<option value="czk">CZK</option>
 									<option value="gbp">GBP</option>
-									<option value="rub">RUB</option>
-									<option value="pln">PLN</option>
+									<option value="aud">AUD</option>
+									<option value="cad">CAD</option>
+									<option value="pln" hidden>PLN</option>
 								</select>
 								<a id="currSwap" href="#" role="button" onClick="swapCurrency()">↔</a>
-								<select id="curr2" class="form-control" disabled="disabled">
+								<select  id="curr2" class="form-control" disabled="disabled">
 									<option value="usd">USD</option>
 									<option value="eur">EUR</option>
-									<option value="uah">UAH</option>
+									<option value="czk">CZK</option>
 									<option value="gbp">GBP</option>
-									<option value="rub">RUB</option>
-									<option value="pln" selected="selected">PLN</option>
+									<option value="aud">AUD</option>
+									<option value="cad">CAD</option>
+									<option value="pln" selected="selected" hidden>PLN</option>
 								</select>
-								<button type="button" class="btn btn-success">Convert</button>
-									
-								
+								<button type="button" class="btn btn-success" onclick="p()">Convert</button>
+								<button type="button" class="btn btn-success" onclick="insert()">Register</button>	
+								<button type="button" class="btn btn-success" onclick="showg()">ShowGraph</button>	
 				</form><br>
 			
 				
-			<table class="table table-hover" border="1">
-			<tr>
-				<td>Exchanger</td>
-				<td>You get</td>
-				<td>Availability</td>				
-			</tr>
-			<tr>
-				<td>MoneyX</td>
-				<td>541</td>
-				<td>Yes</td>				
-			</tr>
-			<tr>
-				<td>WmBox</td>
-				<td>538</td>
-				<td>Yes</td>				
-			</tr>
-			<tr>
-				<td>BestKantor</td>
-				<td>558</td>
-				<td>No</td>				
-			</tr>	
+			<table id="table" class="table table-hover" border="1">
 			</table>
+		
 			</div>
+			
+			<div class="col-lg-8 col-lg-offset-2" id="info">
+				
+			</div>
+			
+			
+			
+			<div id="chart-container">FusionCharts XT will load here!
+			</div>
+			
+			
 			</div>
 		</div>
 		
